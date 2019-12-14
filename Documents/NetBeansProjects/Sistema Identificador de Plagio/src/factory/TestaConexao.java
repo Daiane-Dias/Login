@@ -13,7 +13,7 @@ import java.sql.SQLException;
 public class TestaConexao {
     public static void main(String[] args)throws SQLException{
         Connection connection = new ConnectionFactory().getConnection();
-        System.println("Conexao Aberta");
+        System.println("Conexao Aberta!");
         connection.close();
     }
 }
